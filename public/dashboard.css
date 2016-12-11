@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.main {
+  max-width: 760px;
+  margin: 50px auto;
+}
+
+.main h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  margin: 30px 0px;
+  border-top: 1px solid black;
+}
+
+a {
+  color: deeppink;
+}
+
+h1 a, h3 a {
+  text-decoration: none;
+  color: black!important;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 7px 30px;
+  border: solid black 2px;
+  margin: 10px 0px;
+}
+
+button {
+  width: 30%;
+  margin: 20px auto;
+  padding: 7px 30px;
+  border: solid black 2px;
+  background: white;
+  border-radius: 500px;
+}

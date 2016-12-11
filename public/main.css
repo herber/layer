@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.main {
+  max-width: 760px;
+  margin: 50px auto;
+}
+
+.main h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  margin: 30px 0px;
+  border-top: 1px solid black;
+}
+
+a {
+  color: deeppink;
+}
+
+h1 a, h3 a {
+  text-decoration: none;
+  color: black!important;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title><%= name %></title>
+        <link rel="stylesheet" href="../../dashboard.css">
+        <style media="screen">
+            hr:last-child {
+              display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <h1><a href="/"><%= name %></a></h1>
+            <br><br>
+            <h2>Activate account</h2>
+            <form action="/dashboard/activate/<%= id %>/save" method="post">
+                <input class="input" type="password" name="password" value="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required />
+                <button type="submit">Activate</button>
+            </form>
+        </div>
+    </body>
+</html>

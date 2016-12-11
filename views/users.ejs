@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title><%= name %></title>
+        <link rel="stylesheet" href="../dashboard.css">
+        <style media="screen">
+            hr:last-child {
+              display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <h1><a href="/"><%= name %></a></h1>
+            <div class="nav">
+                <a style="width: 33.3%" href="/dashboard">Dashboard</a>
+                <a style="width: 33.3%" href="/dashboard/new">New</a>
+                <a style="width: 33.3%" href="/dashboard/logout">Logout</a>
+            </div>
+            <br><br>
+            <div class="posts">
+                <% for(var i = 0; i < users.length; i++){ %>
+                <div class="post">
+                    <p><%= i + 1 %>. <a href="../~<%= users[i].url %>"><%= users[i].user %></a></p>
+                </div>
+                <hr>
+                <% } %>
+            </div>
+            <br><br><br><br><br>
+            <h2>Add user:</h2>
+            <form action="/dashboard/users/save" method="post">
+                <input class="input" type="text" name="username" value="Username" pattern="[^'\x22]+" title="Invalid input" required />
+                <button type="submit">Submit</button>
+                <i>The user can set the password at first login.</i>
+            </form>
+        </div>
+    </body>
+</html>
