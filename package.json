@@ -1,0 +1,29 @@
+{
+  "name": "layer-core",
+  "version": "0.0.1",
+  "description": "A modern blogging platform",
+  "main": "lib/layer.js",
+  "scripts": {
+    "start": "node lib/layer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slateshq/layer.git"
+  },
+  "author": "slates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slateshq/layer/issues"
+  },
+  "homepage": "https://github.com/slateshq/layer#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "markdown": "^0.5.0",
+    "nedb": "^1.8.0",
+    "password-hash": "^1.2.2",
+    "underscore": "^1.8.3"
+  }
+}
