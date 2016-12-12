@@ -41,6 +41,8 @@ The editor is built distraction free, so you can concentrate on your writing.
 
 Layer is designed to look good. All unnecessary elements got removed to not distract the reader.
 
+![Layer](http://i.imgur.com/NeydP1b.png)
+
 ## Customisation
 > Make it yours
 
