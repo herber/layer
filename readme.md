@@ -25,8 +25,7 @@ _All the modules are installed by default._
 
 ![Layer](http://i.imgur.com/JUJV4qT.png)
 
-**Done!** 
-
+**Done!** 😉
 ## Usage:
 > Layer is easy to use
 
