@@ -1,5 +1,5 @@
-# LAYER
-> Layer is a modern / easy to use cms
+# LAYER 💚
+ > Layer is a modern / easy to use cms
 
 ![Layer](http://i.imgur.com/JqssJ17.gif)
 
