@@ -2,7 +2,7 @@
 
 > Layer is a modern / easy to use cms
 
-![Imgur](http://i.imgur.com/sWQZbht.gifv)
+![Imgur](http://i.imgur.com/sWQZbht.gif)
 
 ## Installation:
 _You need [node.js](http://nodejs.org)_ to run layer.
