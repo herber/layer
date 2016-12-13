@@ -52,7 +52,7 @@ The views can be found in: `views/`.
 The server side is written in [node.js](http://nodejs.org).
 
 ## Contribute
-Create a pull request / issue to tell us about your awesome ideas, you want us to add Or fork the repo and send us a link to your customisation version.
+Create a pull request / issue to tell us about your awesome ideas, you want us to add or fork the repo and send us a link to your customisation version.
 
 ## Licence
 MIT
