@@ -54,5 +54,5 @@ The server side is written in [node.js](http://nodejs.org).
 ## Contribute
 Create a pull request / issue to tell us about your awesome ideas, you want us to add or fork the repo and send us a link to your customisation version.
 
-## Licence
+## License
 MIT
