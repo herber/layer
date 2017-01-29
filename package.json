@@ -1,5 +1,5 @@
 {
-  "name": "layer-core",
+  "name": "layer-fork",
   "version": "0.0.1",
   "description": "A modern blogging platform",
   "main": "lib/layer.js",
